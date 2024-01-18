@@ -37,3 +37,5 @@ function StoreListing(){
         </Container>    
     )   
 }
+
+export default StoreListing()
