@@ -1,9 +1,11 @@
-import './App.css';
+import Navbar from './components/Navbar'
+import MainCard from './components/MainCard'
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div>
+      <Navbar/>
+      <MainCard/>
     </div>
   );
 }
