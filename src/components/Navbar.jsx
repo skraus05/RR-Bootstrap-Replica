@@ -1,7 +1,7 @@
 import { Nav, Navbar, Button, NavbarCollapse } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React from 'react'
 
-function Navbar() {
+export default function TopNavBar() {
     return (
         <Navbar bg='light' expand='lg'>
     <Navbar.Brand style={{margin: '5px 0 0 20px'}} href='#home'>
@@ -19,5 +19,5 @@ function Navbar() {
 </Navbar>
     )
 }
-export default Navbar()
+
 

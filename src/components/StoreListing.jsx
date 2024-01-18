@@ -1,6 +1,7 @@
 import { Container, Row, Col, Image } from 'react-bootstrap'
+import React from 'react'
 
-function StoreListing(){
+export default function StoreListing(){
     return (
         <Container style={{ marginTop: '40px', textAlign: 'center'}}>
             <Row style={{ borderBottom: '1px solid #E8E9EB', display: 'flex', justifyContext: 'space-evenly'}}>
@@ -37,5 +38,3 @@ function StoreListing(){
         </Container>    
     )   
 }
-
-export default StoreListing()
